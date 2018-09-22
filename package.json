@@ -1,0 +1,75 @@
+{
+  "_from": "angular-modal-service@0.6.6",
+  "_id": "angular-modal-service@0.6.6",
+  "_inBundle": false,
+  "_integrity": "sha1-wRTPdqx38lQouvTxW+EnwQ/cq/4=",
+  "_location": "/angular-modal-service",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "angular-modal-service@0.6.6",
+    "name": "angular-modal-service",
+    "escapedName": "angular-modal-service",
+    "rawSpec": "0.6.6",
+    "saveSpec": null,
+    "fetchSpec": "0.6.6"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-modal-service/-/angular-modal-service-0.6.6.tgz",
+  "_shasum": "c114cf76ac77f25428baf4f15be127c10fdcabfe",
+  "_spec": "angular-modal-service@0.6.6",
+  "author": {
+    "name": "Dave Kerr",
+    "url": "github.com/dwmkerr"
+  },
+  "bugs": {
+    "url": "https://github.com/dwmkerr/angular-modal-service/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "AngularJS Service for showing Modals and Popups",
+  "devDependencies": {
+    "connect-livereload": "^0.5.3",
+    "coveralls": "^2.10.0",
+    "express": "^4.12.0",
+    "gulp": "^3.8.11",
+    "gulp-header": "^1.2.2",
+    "gulp-jshint": "^1.9.2",
+    "gulp-open": "^0.3.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-uglify": "^1.1.0",
+    "jshint-stylish": "^1.0.1",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.3",
+    "karma-coverage": "^0.2.1",
+    "karma-jasmine": "~0.3",
+    "karma-junit-reporter": "~0.2",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "opn": "^1.0.1",
+    "tiny-lr": "^0.1.5"
+  },
+  "homepage": "https://github.com/dwmkerr/angular-modal-service",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "modal",
+    "popup"
+  ],
+  "license": "MIT",
+  "main": "./dst/angular-modal-service.js",
+  "name": "angular-modal-service",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dwmkerr/angular-modal-service.git"
+  },
+  "scripts": {
+    "coveralls": "cp build/coverage/PhantomJS*/lcov.info lcov.info && node node_modules/coveralls/bin/coveralls.js < lcov.info",
+    "test": "gulp test"
+  },
+  "version": "0.6.6"
+}
